@@ -1,0 +1,61 @@
+
+I have cloned your Plus1-repo repository.
+
+It can be important to follow specifications. Your proposal did not do
+so in a number of ways.
+
+*   You do not have a top-level directory named proposal,
+    containing your proposal in a file named proposal-bid.pdf.
+
+    *   You now have this top-level directory, so I can put this file with
+        your current proposal bid status there.
+
+    *   in your Project directory, you have a file Plus1Bid.docx. It looks
+        like it contains much of what your proposal-bid.pdf file was 
+	supposed to contain.
+
+CORRECTION NEEDED:
+*   create a file proposal-bid.pdf that contains your
+corrected project bid, and make sure that this file is in your
+proposal directory.
+
+NEXT ISSUE:
+*   It is required that CS 458 projects have a client who is not
+    a member of the team; your project will not be accepted without
+    this. You needed to provide the name and e-mail of someone *not*
+    on your team willing to server as your client for your project,
+    *or* include your pitch for why our "volunteer client" should consider
+    being your client.
+
+    Your proposal bid is on hold/pending until this is addressed.
+
+    You need to do one of the following for your project to be accepted:
+
+    *   e-mail me the name and e-mail of someone *not* on your team
+        who is willing to serve as your client for this project
+        AND add this to your revised proposal-bid.pdf,
+
+    or
+    
+    *   e-mail me your pitch for why the "volunteer client" should consider
+        agreeing to be your project's client, AND add this to your
+        revised proposal-bid.pdf.
+
+    You need to do one of the above as soon as possible. If
+    you send a pitch for the "volunteer client" and it is not
+    accepted, note that another CS 458 team may be serving as your client,
+    and you would be required to serve as that team's client.
+
+ADDITIONAL IMPORTANT COMMENT:
+*   I am assuming that you listed these so-called "main features" here
+    as reassurance that this proposed project can be broken up into
+    appropriate iterations; note that you will be required to consider
+    client input and feedback in determining which user stories will
+    be implemented in each project sprint.
+
+I look forward to receiving an e-mail from you as soon as possible
+as described above.
+
+Project 1 milestone grade: 3.5 / 5.0
+
+-- Sharon Tuttle
