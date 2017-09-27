@@ -1,0 +1,25 @@
+
+I have cloned your revised Plus1-repo repository on 2017-09-26.
+
+You have converted your proposal bid to a PDF, and you have added a
+client name and e-mail for a client who is not a member of the team, so
+your proposal is now accepted.
+
+Be sure that you follow the project handout guidelines as you start up
+your project.
+
+CORRECTION STILL NEEDED:
+You still need to move your bid into a file named proposal-bid.pdf within
+your proposal directory. Make sure that this is done before Project 
+Milestone 2 is completed.
+
+ADDITIONAL IMPORTANT COMMENT:
+*   I am assuming that you listed these so-called "main features" here
+    as reassurance that this proposed project can be broken up into
+    appropriate iterations; note that you will be required to consider
+    client input and feedback in determining which user stories will
+    be implemented in each project sprint.
+
+Project 1 milestone grade: 3.5 / 5.0
+
+-- Sharon Tuttle
