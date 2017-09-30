@@ -8,3 +8,4 @@ Estimate: 16
 Acceptance Criteria: 
 User can enter their preferred games and their competitive ranks/hours played
 User will create a unique username to identify themselves and a password to make their account secure.
+
