@@ -1,1 +1,11 @@
 I love Condor 
+Me too
+
+Coding Standards for Plus1:
+
+Universal:
+  We use tabs because we are not savages except connor who is a savage
+
+For Meteor:
+  We will be following the W3 schools javascript standards
+  URL: 
