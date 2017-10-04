@@ -1,0 +1,64 @@
+Billy Kennedy
+Connor Callison
+Jared McGreevy
+Kevin Josey
+
+User story Example #1
+
+As a gamer 
+I want to to be able to find people based on game input  
+So that I can play games with others that share my interests
+
+Estimate: 20
+
+Acceptance Criteria:
+
+A gamer must be able to choose a game from a list
+A gamer will be matched to another user based on game choice
+Gamers will be matched with others that are similar ranks in game
+
+
+User story Example #2
+
+As a customer
+I want to be able to create a user profile
+So that other user can easily see what games I am interested in and how 
+	active I am when I play them.
+
+Estimate: 16
+
+Acceptance Criteria: 
+User can enter their preferred games and their competitive ranks/hours played
+User will create a unique username to identify themselves and a password to make their account secure.
+
+
+User story #3
+
+As a gamer 
+I want to to be able to rate my experience with other users  
+So that I can know the quality of the user, and to be able to provide feedback
+
+Estimate: 15
+
+Acceptance Criteria:
+
+A thumbs up or thumbs down after a match setup
+A ratio of thumbs up to thumbs down per user.
+
+
+
+User story #4
+
+As a gamer 
+I want to to be able to report other users  
+So that I can keep others accountable for falsifying information or harassment. 
+
+Estimate: 15
+
+Acceptance Criteria:
+
+A report button on every user's profile page 
+Users can specify why they are reporting another user in the report
+
+
+
