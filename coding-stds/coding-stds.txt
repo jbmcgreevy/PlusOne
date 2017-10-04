@@ -1,5 +1,6 @@
-I love Condor 
-Me too
+Plus1 - Best Team On This Planet
+
+Connor Callison, Kevin Josey, Billy Kennedy, Jared McGreevy
 
 Coding Standards for Plus1:
 
@@ -8,4 +9,4 @@ Universal:
 
 For Meteor:
   We will be following the W3 schools javascript standards
-  URL: 
+  URL: https://www.w3schools.com/js/js_conventions.asp
