@@ -4,19 +4,39 @@ Bill Kennedy, Connor Callison, Kevin Josey, Jared, McGreevy
 
 10/5/2017
 
-Start time: 9 a.m.
+Start time: 9:00 a.m.
 
-End time: 10:30 a.m.
+End time: 9:15 a.m.
 
 Next meeting date: 10/10/2017
 
 3 item reports:
 
+Bill:
+  * Researched Meteor
+  * Want to start on guided user interface
+  * The only hinderance is learning a new software
+  
+Connor
+  * I initialized the meteor project and pushed to the repo
+  * Want to start on the backend development
+  * Challenge is working with a new database
 
+Kevin
+  * Researched Meteor
+  * Work with Bill to integrate the backend and front end
+  * Working with a new software
+  
+Jared
+  * Researched Meteor
+  * Work with Connor on the backend and database
+  * Working with a new database
 
 
 The information in this report is accurate, to the best of
 my knowledge.
 
 Bill Kennedy
-
+Jared McGreevy
+Kevin Josey
+Connor Callison
