@@ -2,3 +2,13 @@ Plus1
 10/11/2017
 Connor Callison, Kevin Josey, Billy Kennedy, Jared McGreevy
 
+Today we:
+
+Back-end team, Connor Callison and  Jared McGreevy, successfully pair 
+programmed the back end of our first major user story.
+They implemented a meteor login page that is tied to our database. 
+
+The front-end team, Kevin Josey and Bill Kennedy, are working with other 
+team members to develop our color scheme. Jared had a dream about our project 
+and we are basing our colors off of that. The front-end team worked on making
+the login page pretty and actually visually functional. 
