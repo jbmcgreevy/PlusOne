@@ -43,10 +43,10 @@ body
 {
    width: 20%;
    height: 100%;
-   position: fixed;
+   position: absolute;
    outline: 1px solid;  
    text-align: center;
-   margin-left: -20%;
+   /*margin-left: -20%;*/
    float: left;
 }
 
