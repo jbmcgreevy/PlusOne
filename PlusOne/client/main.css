@@ -17,10 +17,11 @@ body
    font-size: 20%;*/
    max-width: 200px;
    margin: auto;
+   text-align: center;
 
 }
 
-h1
+.header
 {
    text-align: center;
    font-size: 5vw;
@@ -28,7 +29,6 @@ h1
    max-width: 1500px;
    margin: 0;
    margin-bottom: 10px;
-   display: inline-block;
    color: #BF4600;
    background-color: #BCBDC0;
 }
