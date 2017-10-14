@@ -43,7 +43,7 @@ body
 {
    width: 20%;
    height: 100%;
-   position: fixed;
+   position: relative;
    outline: 1px solid;  
    text-align: center;
 }
