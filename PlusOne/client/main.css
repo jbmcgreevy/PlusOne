@@ -41,8 +41,10 @@ body
 
 .menu
 {
-   
-   
+   width: 20%;
+   height: 100%;
+   position: fixed;
+   outline: 1px solid;   
 }
 
 h2
