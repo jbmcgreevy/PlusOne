@@ -42,6 +42,7 @@ body
 
 .menu
 {
+   margin-bottom: 2cm;
    top: 0;
    bottom: 0;
    left: 0;
@@ -52,6 +53,7 @@ body
    text-align: center;
    margin-left: -100%;
    float: left;
+   background-color: #322A26;
 }
 
 h2
