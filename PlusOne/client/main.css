@@ -11,4 +11,47 @@ body
 {
    background: #191308;
    color: #BCBDC0;
+   position: center;
+
+   font-family:Times New Roman;
+   font-size: 20%;
+
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   padding: 0;
+   margin: 0;
+
 }
+
+h1
+{
+   font-size: 1.5em;
+   margin: 0;
+   margin-bottom: 10px;
+   display: inline-block;
+   margin-right: 1em;
+   color: #BF4600
+}
+
+h2
+{
+   font-size: 1em;
+   margin: 0;
+   margin-bottom: 10px;
+   display: inline-block;
+   margin-right: 1em;
+   color
+}
+
+ul
+{
+   list-style-type: square;
+   margin: 0;
+   padding: 0;
+   background: white;
+}
+
+
