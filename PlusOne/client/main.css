@@ -34,7 +34,8 @@ h1
    margin: 0;
    margin-bottom: 10px;
    display: inline-block;
-   color: #BF4600
+   color: #BF4600;
+   background-color: #BCBDC0;
 }
 
 h2
@@ -52,6 +53,17 @@ ul
    margin: 0;
    padding: 0;
    background: white;
+}
+
+ .footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #BCBDC0;
+    color: white;
+    text-align: center;
 }
 
 
