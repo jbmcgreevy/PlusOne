@@ -9,6 +9,7 @@
 
 body
 {
+   clear: left;
    background-color: #191308;
    color: #BCBDC0;
    position: relative;
@@ -36,6 +37,7 @@ body
 
 .signin
 {
+  clear: left;
   background-color: #191308;
   color: #BCBDC0;
   position: relative;
@@ -55,7 +57,7 @@ body
    top: 0;
    bottom: 0;
    left: 0;
-   width: 100px;
+   width: 200px;
    height: 1000px;
    position: absolute;
    outline: 1px solid;  
