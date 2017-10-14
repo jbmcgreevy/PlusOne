@@ -9,18 +9,13 @@
 
 body
 {
-   background: #191308;
+   background-color: #191308;
    color: #BCBDC0;
-   position: center;
+   position: relative;
 
    /*font-family: Cambria;
    font-size: 20%;*/
    max-width: 200px;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   padding: 0;
    margin: auto;
 
 }
@@ -52,7 +47,7 @@ ul
    list-style-type: square;
    margin: 0;
    padding: 0;
-   background: white;
+   background-color: #BCBDC0;
 }
 
  .footer 
