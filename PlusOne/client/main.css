@@ -43,9 +43,10 @@ body
 {
    width: 20%;
    height: 100%;
-   position: relative;
+   position: fixed;
    outline: 1px solid;  
    text-align: center;
+   margin-left: -20%;
 }
 
 h2
