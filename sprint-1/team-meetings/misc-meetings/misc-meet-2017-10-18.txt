@@ -1,0 +1,8 @@
+Billy Kennedy
+Jared McGreevy
+Connor Callison
+Kevin Josey
+
+Today we -
+    - Made a meeting time for our client so that we can have our Sprint Review
+    - We did some research into our current database and the template format of Meteor
