@@ -7,3 +7,4 @@ Today we -
     - Made a meeting time for our client so that we can have our Sprint Review
     - We did some research into our current database and the template format of Meteor
     - Set dates for Sprint Retrospective meeting and Sprint 2 planning meeting
+    - Updated our github repo to prepare for the future
