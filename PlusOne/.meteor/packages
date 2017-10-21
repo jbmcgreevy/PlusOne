@@ -25,3 +25,4 @@ accounts-google
 useraccounts:bootstrap
 useraccounts:core
 twbs:bootstrap
+google-config-ui
