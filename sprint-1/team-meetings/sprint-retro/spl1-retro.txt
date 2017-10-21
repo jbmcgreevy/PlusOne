@@ -1,1 +1,10 @@
-lololol
+As a customer
+I want to be able to create a user profile
+So that other user can easily see what games I am interested in and how 
+	active I am when I play them.
+
+Estimate: 16
+
+Acceptance Criteria: 
+User can enter their preferred games and their competitive ranks/hours played
+User will create a unique username to identify themselves and a password to make their account secure.
