@@ -1,0 +1,17 @@
+Date: 10/20/2017
+Start Time: 6:00 P.M.
+End Time: 
+
+Team Members Attending:
+Bill Kennedy
+Kevin Josey
+Jared McGreevy
+
+* It was good to get feedback from our client to understand what he would like to see.
+* We will attempt to start earlier and have better communications. 
+
+The information in this sprint-retro directory is accurate, to the best of my
+knowledge:
+Bill Kennedy
+Kevin Josey
+Jared McGreevy
