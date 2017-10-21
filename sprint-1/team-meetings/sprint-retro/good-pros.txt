@@ -1,0 +1,4 @@
+Things that went well this sprint:
+  - We gained a greater understanding of meteor
+  - We gained a better idea on what we need to focus on to accomplish our goals
+  - We learned how to prioritize our time 
