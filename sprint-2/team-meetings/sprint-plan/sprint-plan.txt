@@ -1,1 +1,29 @@
-Placeholder text
+October 25, 2017 
+Start Time: 9:20 P.M.
+End Time:   9:35 P.M.
+
+Connor Callison
+Kevin Josey
+Bill Kennedy
+Jared McGreevy
+
+Length: 3 weeks 
+Deadline: Friday November 10th
+
+Hours Availible:
+  Connor: 5 Hours
+  Kevin:  5 Hours
+  Bill:   5 Hours
+  Jared:  5 Hours
+  
+Total Hours: 20
+
+Next planned meeting:
+  Daily Scrum on Wednesday November 1st at 5:30 P.M.
+  
+The information in this sprint-plan directory is accurate, to the best of my
+knowledge
+  Members:  Connor Callison
+            Kevin Josey
+            Bill Kennedy
+            Jared McGreevy
