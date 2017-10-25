@@ -1,1 +1,10 @@
+Plus1
+10/25/2017
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
+
 Today we:
+
+We created the sprint 2 directory and added the backlog list so that
+we can fully plan the meeting. We talked about our goals that we
+wish to accomplish during this sprint which includes creating the 
+algorithm to allow for player match making and creating user accounts.
