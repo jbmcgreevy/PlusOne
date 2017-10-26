@@ -27,7 +27,7 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Dev Team</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
 <!--
             <li class="nav-item">
@@ -61,9 +61,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">About Plus1</h2>
+            <h2 class="section-heading text-white">We've got what you need!</h2>
             <hr class="light">
-            <p class="text-faded">Plus1 is a way for gamers to find other gamers who share the same interest in games and have a similar skill level.</p>
+            <p class="text-faded">With our matchmaking algorithm you will be able to find other gamers at your skill level playing the games you love.</p>
             <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
           </div>
         </div>
@@ -74,7 +74,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Meet the team</h2>
+            <h2 class="section-heading">At Your Service</h2>
             <hr class="primary">
           </div>
         </div>
@@ -84,29 +84,29 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-              <h3>Bill Kennedy</h3>
-              <p class="text-muted">Loves RuneScape 2007 and exploring the outdoors with friends.</p>
+              <h3>Sturdy Templates</h3>
+              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-              <h3>Connor Callison</h3>
-              <p class="text-muted">A coding god that also enjoys spending time with family and friends.</p>
+              <h3>Ready to Ship</h3>
+              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-              <h3>Jared McGreevy</h3>
-              <p class="text-muted">Probably playing World of Tanks or looking up Alfa Romeos on eBay.</p>
+              <h3>Up to Date</h3>
+              <p class="text-muted">We update dependencies to keep things fresh.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
               <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-              <h3>Kevin Josey</h3>
-              <p class="text-muted">A Civ 5 juggernaut and a man that will always be MVP.</p>
+              <h3>Made with Love</h3>
+              <p class="text-muted">You have to make your websites with love these days!</p>
             </div>
           </div>
         </div>
