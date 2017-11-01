@@ -11,3 +11,9 @@ Router.route('/home', function () {
 }, {
   name: 'home'
 });
+
+Router.route('/signin', function () {
+  this.render('signIn');
+}, {
+  name: 'signIn'
+});
