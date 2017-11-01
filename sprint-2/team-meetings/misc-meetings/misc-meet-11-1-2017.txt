@@ -4,3 +4,7 @@ Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
 
 Today we:
 
+Learned and made progress with templates. 
+Created login and registration placeholders
+Connor demonstrated dynamic referencing
+Design team focused on login page ui development
