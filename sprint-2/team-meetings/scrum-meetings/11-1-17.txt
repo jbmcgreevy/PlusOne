@@ -1,1 +1,31 @@
-hello nerds
+11/1/2017
+Start time: 5:50 p.m.
+End time: 6:00 p.m.
+
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
+
+Connor:
+  Did: Implemented iron router
+  Hoping: login template and route for router 
+  Blocks: nothing holds our boy back
+ 
+Kevin:
+  Did: Created templates for sub directories
+  Hoping: Finish sub directories
+  Blocks: work around the CSS with bootstrap
+  
+Bill:
+  Did: Created templates for sub directories
+  Hoping: Finish sub directories
+  Blocks: Knowledge of bootstrap
+  
+Jared:
+  Did: Worked on home page for site adding useful information
+  Hoping: Work on creating user accounts
+  Blocks: Knowledge of mongo databases
+  
+Next meeting:
+Friday November 3, 2017 at 5:30pm
+  
+The information in this report is accurate, to the best of my knowledge
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
