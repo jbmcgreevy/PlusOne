@@ -1,0 +1,2 @@
+For Sprint 2 we want every single link within our site to work. By that I mean instead of those links going to 
+    placeholders we want them all to go to professional looking webpages. 
