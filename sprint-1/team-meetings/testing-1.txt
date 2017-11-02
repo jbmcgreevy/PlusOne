@@ -1,0 +1,3 @@
+For this sprint we spent most of our time initializing with no functions so there was little oppertunity for unit and acceptance
+tests. Our main goal was to create a functional template for this first sprint which we achieved. From here on out there will be
+unit and acceptance tests. 
