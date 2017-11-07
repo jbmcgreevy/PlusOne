@@ -243,5 +243,35 @@
 </template>
 
 <template name="signIn">
-  <h1>Please Sign in or Register</h1>
+
+  <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Get Started with Plus1</h2>
+            <hr class="light">
+            <p class="text-faded">Please Sign In or Sign Up to Get Started.</p>
+            <div class="form-left" style="float: left;">
+              <h2> Sign Up </h2>
+              <form>
+                <h3> Email: <input type="email" name="registerEmail"> </h3>
+                <h3> Password: <input type="password" name="registerPassword"> 
+                 </h3>
+                <input class="btn btn-default btn-x1 js-scroll-trigger" type="submit" value="Register">
+              </form>
+            </div>  
+            <div class="form-right" style="float: right;">
+              <h2> Sign In </h2>
+              <form>
+                <h3> Email: <input type="email" name="loginEmail"> </h3>
+                <h3> Password: <input type="password" name="loginPassword">
+                 </h3>
+                <input class="btn btn-default btn-x1 js-scroll-trigger" type="submit" value="Login">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
 </template>

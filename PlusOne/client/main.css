@@ -41,6 +41,9 @@ p {
   line-height: 1.5;
   margin-bottom: 20px; }
 
+input {
+  color: black; }
+
 .bg-primary {
   background-color: #F05F40 !important; }
 
@@ -77,6 +80,9 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #222222; }
+
+form {
+  margin: 0 auto; }
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -344,3 +350,11 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+
+.form-left {
+  width: 400px; overflow: hidden; padding: 10px; float: left; clear:left;
+  display: block; text-align: left; }
+
+.form-right {
+  width: 400px; overflow: hidden; padding: 10px; float: right; clear: left;
+  display: inline-block; text-align: left; }
