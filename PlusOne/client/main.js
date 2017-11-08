@@ -3,7 +3,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 import './main.css';
-// import './creative.js';
+// import './creative.jss';
 
 
 Router.route('/home', function () {
