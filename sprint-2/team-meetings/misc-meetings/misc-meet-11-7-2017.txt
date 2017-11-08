@@ -1,0 +1,11 @@
+Plus1
+11/7/2017
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
+
+Tonight we:
+
+We discussed our plan for Wednesdays presentation of the project.
+We talked about what we need to share with the class which includes
+our home page and a login for users as well as our current CSS. We will be 
+presenting off of Jared's laptop and will be switching off talking about different 
+modules as well as our plans for a match making algorithm. 
