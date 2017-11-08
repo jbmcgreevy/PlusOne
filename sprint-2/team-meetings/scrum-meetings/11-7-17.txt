@@ -1,0 +1,31 @@
+11/7/2017
+Start time: 8:40 p.m.
+End time: 9:00 p.m.
+
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
+
+Connor:
+  Did: login temlpate and route for router
+  Hoping:  Link the back to thee front end
+  Blocks: Connor is an absolute maniac and can code anythinghee sets his minnd to
+ 
+Kevin:
+  Did: Worked on sign in front end, in progress withh directories
+  Hoping: start on the algorithm
+  Blocks: inexperience in the subject
+  
+Bill:
+  Did: Started designing algorithm
+  Hoping: start putting algorithm into code
+  Blocks: the idea of our algorithmmight need to be refactored
+  
+Jared:
+  Did: Worked on sign-in page with Kevin and Connor
+  Hoping: Work on profiles
+  Blocks: Knowledge of languages.
+  
+Next meeting:
+Friday November 9, 2017 at 5:30pm
+  
+The information in this report is accurate, to the best of my knowledge
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
