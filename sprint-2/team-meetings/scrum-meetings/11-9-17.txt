@@ -1,0 +1,31 @@
+11/9/2017
+Start time: 5:55 p.m.
+End time: 6:00 p.m.
+
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
+
+Connor:
+  Did: Implementing the new login using Jquery 
+  Hoping: Finish implementing login page
+  Blocks: Conflicting CSS
+ 
+Kevin:
+  Did: Created templates for the login forms
+  Hoping: Work on other templates
+  Blocks: Time constraints
+  
+Bill:
+  Did: Working on the algorithm
+  Hoping: Improving the algorithm so that it can be implemented
+  Blocks: Figuring out the algorithm
+  
+Jared:
+  Did: Working with connor on the login trying to move it to the homepage
+  Hoping: Create a seamless login on homepage
+  Blocks: Issues with Jquery
+  
+Next meeting:
+Friday November 14, 2017 at 5:30pm
+  
+The information in this report is accurate, to the best of my knowledge
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
