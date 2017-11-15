@@ -3,4 +3,7 @@ Plus1
 Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
 
 Today we:
-
+We worked on uploading our project to a linux based linode server. 
+This will alllow us to have the site running contiously and be able 
+to be accessed from more than just local host. While setting up 
+the server each of us (Billy, Kevin, Connor, and Jared) created sudo users. 
