@@ -84,6 +84,12 @@ body {
 form {
   margin: 0 auto; }
 
+option{
+  color: black; }  
+
+select{
+  color: black; }
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -358,7 +364,9 @@ header.masthead {
   width: 400px;  float: right; }
 
 .divide{
-  margin:auto; width:800px; height:auto; overflow:auto; text-align:left; }  
+  margin:auto; width:800px; height:auto; overflow:auto; text-align:right; }
+
+
 
 
 
