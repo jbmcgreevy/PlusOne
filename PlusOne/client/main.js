@@ -1,3 +1,5 @@
+// This Javascript was made by Jared and Connor
+
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
