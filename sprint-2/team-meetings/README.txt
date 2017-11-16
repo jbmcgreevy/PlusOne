@@ -14,3 +14,5 @@ Once you save these changes to your local machine you should be able use a termi
   this directory you should be able to type out "meteor" into the terminal and once it finishes loading it should give you an address 
   you can enter to your web browser. Likely http://localhost:3000/home. Please make sure to add the /home if it does not instruct 
   you to do so.
+
+If you want an always up-to-date version of our project you can go to 66.175.219.23:3000/home and see what we're up to.
