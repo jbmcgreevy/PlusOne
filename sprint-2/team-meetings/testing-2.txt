@@ -1,0 +1,7 @@
+Once again our Project is not at a point where many tests will be excessively helpful because the matchmaking system and login are
+  still in progress of being completed BUT that doesn't mean we did not test the site itself.
+  
+Our main testing focus was put into the links that our website has and if they work as expected. For example the "create account"
+  button on the home page should take you to the signin page and clicking the PlusOne in the top right of the navigation bar should
+  take you back to the home page. Other links will take you through the site such as the "get started" button that will take you
+  down the home page to the "create account" button.
