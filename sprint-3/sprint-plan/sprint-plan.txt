@@ -1,0 +1,27 @@
+preemptive sprint-plan
+16 November, 2017 
+Start Time: 5:30 P.M.
+End Time:   ???? P.M.
+
+Connor Callison
+Kevin Josey
+Bill Kennedy
+Jared McGreevy
+
+Length: 3 weeks 
+Deadline: Friday December 8th
+
+Hours Availible:
+  Connor: 5 Hours
+  Kevin:  7 Hours
+  Bill:   7 Hours
+  Jared:  6 Hours
+  
+Total Hours: 25
+
+Next planned meeting:
+  Daily Scrum on ???????
+  
+The information in this sprint-plan directory is accurate, to the best of my
+knowledge
+  Members: 

@@ -1,0 +1,4 @@
+Sprint 3 of our project will have the most exstensive testing yet. On top of basice 
+	functions that we expect the site to accomplish we will finally be able to test
+	our matchmaking system to insure that it will match two users that are the most 
+	similar in skill to making sure it only matches people looking for the same game!
