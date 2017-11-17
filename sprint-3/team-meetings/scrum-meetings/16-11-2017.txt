@@ -1,4 +1,4 @@
-11/14/2017
+11/16/2017
 Start time: 5:20 p.m.
 End time: 5:30 p.m.
 
@@ -10,22 +10,22 @@ Connor:
   Blocks: Conflicting CSS
  
 Kevin:
-  Did: Prototype registration form
-  Hoping: Work on algorithm
-  Blocks: Learn algorithm implementation
+  Did: Wokring on algorithm
+  Hoping: keep working on the algorithm 
+  Blocks: inexperience with algorithms 
   
 Bill:
-  Did: Worked on form display
-  Hoping: Finish registration display before sprint end
-  Blocks: Learn how javascript, html, and meteor work together
+  Did: Worked on styling of pages
+  Hoping: finish the styling
+  Blocks: time constraints
   
 Jared:
-  Did: Continued working with connor on the login
-  Hoping: Finish login before sprint
-  Blocks: Finding time to work on project
+  Did: Worked on the link to the match making page
+  Hoping: Create a seamless link between the pages
+  Blocks: Knowledge of the code. 
   
 Next meeting:
-????????????????????
+11/21/2017 at 5:30 pm
   
 The information in this report is accurate, to the best of my knowledge
 Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
