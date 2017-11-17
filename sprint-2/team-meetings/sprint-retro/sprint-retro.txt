@@ -1,9 +1,15 @@
 preemptive sprint-retro
 16 November 2017
-5:30 - ????
+5:30 - 5:50
 
-Billy Kennedy, Connor Callison, jared McGreevy, Kevin Josey, Shane Kelly (Client)
+Billy Kennedy, Connor Callison, jared McGreevy, Kevin Josey
 
-Discusion and Brainstorming
+Discusion and Brainstorming:
+
+While going through this sprint we found that we had seriously underestimated the amount
+of time that we would put into the project which caused us to fail to complete some of 
+our tasks. To improve our work ability we will attempt to have better communication and 
+work on the project more often on weeknights. 
 
 The information in this sprint-rero directory is accurate, to the best of my knowledge:
+Billy Kennedy, Connor Callison, Jared McGreevy, Kevin Josey
