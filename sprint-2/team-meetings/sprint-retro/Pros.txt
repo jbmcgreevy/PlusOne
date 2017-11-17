@@ -1,1 +1,4 @@
-
+Things that went well this sprint:
+  - We gained a greater understanding of bootstrap and mongo
+  - We fixed a lot of issues we had with the website itself
+  - We have a working live version
