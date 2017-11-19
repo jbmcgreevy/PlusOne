@@ -246,6 +246,7 @@
       </div>
     </section>
 </template>
+                
 
 <template name="signIn">
 
@@ -264,11 +265,42 @@
               <h2> Sign Up Here! </h2>
               <h2> Select the Games that You Play!</h2>
               <form method="POST">
+                                
+
+
+                <!-- Login Info --> 
                 
+                <h3> <label>Username:</label> 
+                  <input type="Username" name="registerUsername"> </h3>
+                <h3> <label>Email:</label> <input type="email" name="registerEmail"> </h3>
+                <h3> <label>Password:</label> 
+                  <input type="password" name="registerPassword"> </h3>
+                <input class="btn btn-default btn-x1 js-scroll-trigger" type="submit" value="Register">
+              </form>
+            </div>  
+            <div class="form-right" style="float: right;">
+              <h2> Sign In </h2>
+              <form method="POST">
+                <h3> <label>Email:</label> <input type="email" name="loginEmail"> </h3>
+                <h3> <label>Password:</label> <input type="password" name="loginPassword">
+                 </h3>
+
+
+
+
                 <!-- CSGO Stuff -->
                 
                 <h4><label>Counter-Strike: Global Offensive</label> 
-                  <input type="checkbox" name="CSGO"> </h4>
+
+		  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#csgoreg">Counter-Strike: Global Offensive
+		  </button>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+
                 <h5> <label>Current rank:</label> <select name="CSGO-Rank">
                   <option value="Unranked">Unranked</option>
                   <option value="Silver1">Silver I</option>
@@ -294,6 +326,7 @@
                   <option value="TheGlobalElite">The Global Elite</option> 
                 </select>  
                  </h5>
+
                 <h5> <label>Competitive matches won:</label> <select name="CSGO-Wins">
                   <option value="25>p>0">Between 0 and 25 </option>
                   <option value="50>p>25">Between 25 and 50 </option>
@@ -302,10 +335,26 @@
                 </select>
                  </h5>
 
+    </div>
+  </div>
+
+
+
+
                 <!-- PUBG Stuff -->
                 
                 <h4><label>PLAYERUNKNOWN'S BATTLEGROUNDS</label> 
-                  <input type="checkbox" name="PUBG"> </h4>
+
+
+		  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#pubgreg">Player Unknown's Battlegrounds
+		  </button>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+
                  <h5> <label>Hours Logged:</label> <select name="PUBG-Hours">
                    <option value="25>p>0">Between 0 and 25</option>
                    <option value="50>p>25">Between 25 and 50 </option>
@@ -317,25 +366,14 @@
                    <option value="ThirdP">First Person </option>
                    <option value="Either">Either </option> 
                  </select> </h5>
-                
-                <!-- Login Info --> 
-                
-                <h3> <label>Username:</label> 
-                  <input type="Username" name="registerUsername"> </h3>
-                <h3> <label>Email:</label> <input type="email" name="registerEmail"> </h3>
-                <h3> <label>Password:</label> 
-                  <input type="password" name="registerPassword"> </h3>
-                <input class="btn btn-default btn-x1 js-scroll-trigger" type="submit" value="Register">
-              </form>
-            </div>  
-            <div class="form-right" style="float: right;">
-              <h2> Sign In </h2>
-              <form method="POST">
-                <h3> <label>Email:</label> <input type="email" name="loginEmail"> </h3>
-                <h3> <label>Password:</label> <input type="password" name="loginPassword">
-                 </h3>
+
                 <input class="btn btn-default btn-x1 js-scroll-trigger" type="submit" value="Login">
               </form>
+    </div>
+  </div>
+
+
+
             </div>
           </div>
           </div>
