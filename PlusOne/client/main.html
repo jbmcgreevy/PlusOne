@@ -246,7 +246,6 @@
       </div>
     </section>
 </template>
-                
 
 <template name="signIn">
 
@@ -266,23 +265,10 @@
               <h2> Select the Games that You Play!</h2>
               <form method="POST">
                 
-               
-
-			 <!-- CSGO Stuff -->
-
-
-
-		  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#csgoreg">Counter-Strike: Global Offensive
-		  </button>
-
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-
-              
-
+                <!-- CSGO Stuff -->
+                
+                <h4><label>Counter-Strike: Global Offensive</label> 
+                  <input type="checkbox" name="CSGO"> </h4>
                 <h5> <label>Current rank:</label> <select name="CSGO-Rank">
                   <option value="Unranked">Unranked</option>
                   <option value="Silver1">Silver I</option>
@@ -316,24 +302,10 @@
                 </select>
                  </h5>
 
-       </div>
-      </div>
                 <!-- PUBG Stuff -->
-
-
-
-                <h4><label>PLAYERUNKNOWN'S BATTLEGROUNDS</label> 
-                  
-
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#pubgreg">Player Unknown's Battlegrounds
-		  </button>
-
-
-                         <!-- Modal -->
-                 <div class="modal fade" id="myModal" role="dialog">
-                 <div class="modal-dialog">
-    
                 
+                <h4><label>PLAYERUNKNOWN'S BATTLEGROUNDS</label> 
+                  <input type="checkbox" name="PUBG"> </h4>
                  <h5> <label>Hours Logged:</label> <select name="PUBG-Hours">
                    <option value="25>p>0">Between 0 and 25</option>
                    <option value="50>p>25">Between 25 and 50 </option>
@@ -345,9 +317,7 @@
                    <option value="ThirdP">First Person </option>
                    <option value="Either">Either </option> 
                  </select> </h5>
-       </div>
-     </div>        
-        
+                
                 <!-- Login Info --> 
                 
                 <h3> <label>Username:</label> 
@@ -359,7 +329,7 @@
               </form>
             </div>  
             <div class="form-right" style="float: right;">
-              <h2> Sign In </h2>
+              <h2>Returning Users Sign In </h2>
               <form method="POST">
                 <h3> <label>Email:</label> <input type="email" name="loginEmail"> </h3>
                 <h3> <label>Password:</label> <input type="password" name="loginPassword">
