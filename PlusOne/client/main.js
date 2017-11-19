@@ -1,4 +1,5 @@
 // This Javascript was made by Jared and Connor
+// Modified 11/18/17 by Bill
 
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
@@ -19,3 +20,22 @@ Router.route('/signin', function () {
 }, {
   name: 'signIn'
 });
+
+
+Router.route('/profile', function () {
+  this.render('profile');
+}, {
+  name: 'profile'
+});
+
+
+Router.route('/match', function () {
+  this.render('match');
+}, {
+  name: 'match'
+});
+
+
+
+
+
