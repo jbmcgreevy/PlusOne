@@ -27,3 +27,4 @@ useraccounts:core
 twbs:bootstrap
 google-config-ui@1.0.0
 iron:router
+meteortoys:allthings
