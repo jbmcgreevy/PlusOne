@@ -1,0 +1,31 @@
+11/29/2017
+Start time: 9:30 a.m.
+End time: 10:00 a.m.
+
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
+
+Connor:
+  Did: Worked with Kevin on merging our conflicting branches
+  Hoping: Setup database information for matchmaking
+  Blocks: Runescape gains
+ 
+Kevin:
+  Did: Worked with Connor on merging our conflicting branches
+  Hoping: Finish algorithm in JS for matchmaking
+  Blocks: working with an unfinished database end
+  
+Bill:
+  Did: Merged profile information into algorithm process
+  Hoping: Finish working css for matchmaking button
+  Blocks: Knowledge of bootstrap
+  
+Jared:
+  Did: Worked on the database setup and learned collection information
+  Hoping: Work on creating collections for matchmaker
+  Blocks: Knowledge of mongo databases
+  
+Next meeting:
+Friday Decemeber 1, 2017 at 5:30pm
+  
+The information in this report is accurate, to the best of my knowledge
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
