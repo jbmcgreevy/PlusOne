@@ -12,3 +12,15 @@ Router.route('/signin', function () {
 }, {
   name: 'signIn'
 });
+
+Router.route('/matchmaking', function () {
+  this.render('matchmaking');
+}, {
+  name: 'matchmaking'
+});
+
+
+Router.route('/match', function () {
+  this.render('match');
+}, {
+  name: 'match'
