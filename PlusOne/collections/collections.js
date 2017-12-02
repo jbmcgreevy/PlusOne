@@ -1,3 +1,2 @@
+Accounts = new Mongo.Collection('accounts');
 
-
-<3
