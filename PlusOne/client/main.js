@@ -24,3 +24,4 @@ Router.route('/match', function () {
   this.render('match');
 }, {
   name: 'match'
+});  
