@@ -10,7 +10,7 @@
 
 // This version will match people within game choice and that's it, no other 
 // inputs will be evaluated.
-
+/*
 def get_matchB(user_a, user_b):
 	//define q1 and q2 as parameter users
 	q1 = Q(useranswer_user=user_a)
@@ -38,4 +38,4 @@ def get_matchB(user_a, user_b):
 		//Not sure how what to do from there
 
 		
-
+*/
