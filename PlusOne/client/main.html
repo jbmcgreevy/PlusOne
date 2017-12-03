@@ -299,11 +299,7 @@
 
 <template name="matchmaking">
 
-  <div class="container">
-  <div class="row">
-    <p class="text-center"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>
-  </div>
-</div>
+    <p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>
 <!-- END # BOOTSNIP INFO -->
 
                
@@ -336,7 +332,9 @@
                             </div>
 
                             <div>
-                                <button type="submit" class="btn btn-primary btn-lg btn-block">Match!</button>
+
+                                  <p class="text-left"><a href="match" class="btn btn-primary btn-xl" role="button" data-toggle="match" data-target="match">Match!</a></p>
+                                <!-- <button type="submit" class="btn btn-primary btn-lg btn-block">Match!</button> -->
                             </div>
 
                   </div>
@@ -344,6 +342,13 @@
                     </form>
                 </div>
                 <!-- End # DIV Form -->
+
+
+</template>
+
+<template name="match">
+  <p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>
+  <p>Your partner in</p><p>is</p>
 
 
 </template>
