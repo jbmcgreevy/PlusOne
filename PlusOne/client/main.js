@@ -1,15 +1,15 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
-if (Meteor.isClient) {
-	Accounts.onLogin(function() {
-	  this.render('matchmaking');
-	});
+// if (Meteor.isClient) {
+// 	Accounts.onLogin(function() {
+// 	  this.render('matchmaking');
+// 	});
 
-	Accounts.onLogout(function() {
-	  this.render('Home');
-	});
-}
+// 	Accounts.onLogout(function() {
+// 	  this.render('Home');
+// 	});
+// }
 
 Router.route('/home', function () {
   this.render('Home');
