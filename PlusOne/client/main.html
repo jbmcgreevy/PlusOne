@@ -1,0 +1,348 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PlusOne</title>
+
+    <!-- Bootstrap core CSS -->
+
+
+  </head>
+
+<template name="MainNav">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="/home">PlusOne</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Dev Team</a>
+            </li>
+<!--
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+-->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+
+            {{#if currentUser}}
+              <li class="nav-item logout">
+                <a class="nav-link">Logout</a>
+              </li>
+            {{else}}
+              <li class="nav-item login-toggle">
+                <a class="nav-link js-scroll-trigger">Login/Sign-up</a>
+              </li>
+            {{/if}}
+
+            {{> loginModal}}
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+</template>
+
+
+<template name="Home">
+  {{> MainNav}}
+  <header class="masthead">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1 id="homeHeading">Find teammates instantly</h1>
+          <hr>
+          <p>PlusOne is a gamers matchmaker that allows them to find others playing the games they love!</p>
+           {{#if currentUser}}
+           <a class="btn btn-primary btn-xl js-scroll-trigger" href="matchmaking">Match</a> 
+           {{/if}}
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">About Plus1</h2>
+            <hr class="light">
+            <p class="text-faded">Plus1 is a way for gamers to find other gamers who share the same interest in games and have a similar skill level.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Meet the team</h2>
+            <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+              <h3>Bill Kennedy</h3>
+              <p class="text-muted">Loves RuneScape 2007 and exploring the outdoors with friends.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+              <h3>Connor Callison</h3>
+              <p class="text-muted">A coding god that also enjoys spending time with family and friends.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+              <h3>Jared McGreevy</h3>
+              <p class="text-muted">Probably playing World of Tanks or looking up Alfa Romeos on eBay.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+              <h3>Kevin Josey</h3>
+              <p class="text-muted">A Civ 5 juggernaut and a man that will always be MVP.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="call-to-action bg-dark">
+      <div class="container text-center">
+        <h2>Contact the team</h2>
+        <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Contact</a>
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="primary">
+            <p>If you have any questions please contact our admin through the link 
+              below</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <p>(707) 826-3011</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">connor@humboldt.edu</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  }
+</template>
+
+<template name="signIn">
+
+  <!-- <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Get Started with Plus1</h2>
+            <hr class="light">
+            <p class="text-faded">Please Sign In or Sign Up to Get Started.</p>
+            <div class="divide">
+            <div class="form-left" style="float: left;">
+              <h2> Sign Up </h2>
+              <form>
+                <h3> Email: <input type="email" name="registerEmail"> </h3>
+                <h3> Password: <input type="password" name="registerPassword"> 
+                 </h3>
+                <input class="btn btn-default btn-x1 js-scroll-trigger" type="submit" value="Register">
+              </form>
+            </div>  
+            <div class="form-right" style="float: right;">
+              <h2> Sign In </h2>
+              <form>
+                <h3> Email: <input type="email" name="loginEmail"> </h3>
+                <h3> Password: <input type="password" name="loginPassword">
+                 </h3>
+                <input class="btn btn-default btn-x1 js-scroll-trigger" type="submit" value="Login">
+              </form>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+  </section> -->
+  <div class="container">
+  <div class="row">
+        <p class="text-center"><a href="#" class="btn btn-primary btn-xl" role="button" data-toggle="modal" data-target="#login-modal">Sign In</a></p>
+  </div>
+</div>
+<!-- END # BOOTSNIP INFO -->
+
+<!-- BEGIN # MODAL LOGIN -->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" align="center">
+          <img class="img-circle" id="img_logo" src="http://bootsnipp.com/img/logo.jpg">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </div>
+                
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+                
+                    <!-- Begin # Login Formd -->
+                    <form id="login-form">
+                    <div class="modal-body">
+                <div id="div-login-msg">
+                                <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-login-msg">Type your username and password.</span>
+                            </div>
+                <input id="login_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
+                <input id="login_password" class="form-control" type="password" placeholder="Password" required>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                  </div>
+                <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+                            </div>
+                  <div>
+                                <button id="login_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                                <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
+                            </div>
+                </div>
+                    </form>
+                    <!-- End # Login Form -->
+                    
+                    <!-- Begin | Lost Password Form -->
+                    <form id="lost-form" style="display:none;">
+                  <div class="modal-body">
+                <div id="div-lost-msg">
+                                <div id="icon-lost-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-lost-msg">Type your e-mail.</span>
+                            </div>
+                <input id="lost_email" class="form-control"  type="text" placeholder="E-Mail (type ERROR for error effect)" required>
+                  </div>
+                <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
+                            </div>
+                            <div>
+                                <button id="lost_login_btn" type="button" class="btn btn-link">Log In</button>
+                                <button id="lost_register_btn" type="button" class="btn btn-link">Register</button>
+                            </div>
+                </div>
+                    </form>
+                    <!-- End | Lost Password Form -->
+                    
+                    <!-- Begin | Register Form -->
+                    <form id="register-form" style="display:none;">
+                    <div class="modal-body">
+                <div id="div-register-msg">
+                                <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-register-msg">Register an account.</span>
+                            </div>
+                <input id="register_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
+                            <input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
+                            <input id="register_password" class="form-control" type="password" placeholder="Password" required>
+                  </div>
+                <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
+                            </div>
+                            <div>
+                                <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
+                                <button id="register_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                            </div>
+                </div>
+                    </form>
+                    <!-- End | Register Form -->
+                    
+                </div>
+                <!-- End # DIV Form -->
+                
+      </div>
+    </div>
+  </div>
+    <!-- END # MODAL LOGIN -->
+
+</template>
+
+
+<template name="matchmaking">
+    {{> MainNav}}
+    <section class="bg-primary" id="about">
+      <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p> -->
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+                
+                    <!-- Begin # matchmaking Form -->
+                    <form id="matchmaking">
+                    <div class="radio-Match">                   
+                          <!--<div id="icon-matchmaking-msg" class="glyphicon glyphicon-chevron-right"></div>-->
+                          <span id="text-matchmaking-msg"><h1 id="homeHeading">Choose your Matchmaking Options</h1></span>
+                                                                      
+                            <div id="Game" class="radio-Match">
+                                <h2> Select Game </h2>
+                                  <input type="radio" name="game" value="pubg"> 
+                                  <h2> PUBG </h2>
+                                  <input type="radio" name="game" value="csgo"> 
+                                  <h2> CS:GO </h2>
+                            </div>
+                            <hr class="light">
+                            <div id="playstyle" class="radio-Match">
+                                <h2> Select Playstyle </h2>
+                                  <input type="radio" name="playstyle" 
+                                  value="competitive"> <h2> Competitive </h2>
+                                  <input type="radio" name="playstyle" 
+                                  value="casual"> <h2> Casual </h2>
+                            </div>
+
+                            <div class="radio-Match">
+                                <p class="text-primary"><a href="match" 
+                                  class="btn-primary btn-xl" role="button" data-toggle="match" data-target="match">Match!</a></p>
+                                <!-- <button type="submit" class="btn btn-primary btn-lg btn-block">Match!</button> -->
+                            </div>
+                    </div>                
+                    </form>
+              </div>
+    </section>
+    <!-- End # DIV Form -->
+</template>
+
+<template name="match">
+  {{> MainNav}}
+  <section class="bg-primary" id="about">
+    <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>-->
+    <p>Your partner in</p><p>is</p>
+
+  </section>
+</template>
