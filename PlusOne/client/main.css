@@ -17,7 +17,9 @@ hr {
   border-color: #F05F40; }
 
 hr.light {
-  border-color: white; }
+  border-color: white; 
+  height: 10px
+}
 
 a {
   color: #F05F40;
@@ -43,6 +45,10 @@ p {
 
 input {
   color: black; }
+
+.radio-Match{
+  text-align: center;
+}
 
 .bg-primary {
   background-color: #F05F40 !important; }
@@ -509,4 +515,9 @@ header.masthead {
 
 .form-control {
   border-radius: 0px;
+}
+
+.match-body {
+    position: relative;
+    padding: 15px 25px 15px 25px;
 }

@@ -17,7 +17,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">PlusOne</a>
+        <a class="navbar-brand js-scroll-trigger" href="/home">PlusOne</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -298,57 +298,51 @@
 
 
 <template name="matchmaking">
-
-    <p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>
-<!-- END # BOOTSNIP INFO -->
-
-               
+    {{> MainNav}}
+    <section class="bg-primary" id="about">
+      <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p> -->
                 <!-- Begin # DIV Form -->
                 <div id="div-forms">
                 
-                    <!-- Begin # matchmaking Formd -->
+                    <!-- Begin # matchmaking Form -->
                     <form id="matchmaking">
-                    <div class="matchbody">
-                <div id="div-matchmaking-msg">
-                                <div id="icon-matchmaking-msg" class="glyphicon glyphicon-chevron-right"></div>
-                                <span id="text-matchmaking-msg">Choose your Matchmaking Options</span>
+                    <div class="radio-Match">                   
+                          <!--<div id="icon-matchmaking-msg" class="glyphicon glyphicon-chevron-right"></div>-->
+                          <span id="text-matchmaking-msg"><h1 id="homeHeading">Choose your Matchmaking Options</h1></span>
+                                                                      
+                            <div id="Game" class="radio-Match">
+                                <h2> Select Game </h2>
+                                  <input type="radio" name="game" value="pubg"> 
+                                  <h2> PUBG </h2>
+                                  <input type="radio" name="game" value="csgo"> 
+                                  <h2> CS:GO </h2>
                             </div>
-               
-
-                            <div id="Game" class="radiobutton">
-
-                                    <input type="radio" name="game" value="pubg"> PUBG
-                                    <input type="radio" name="game" value="csgo"> CS:GO
-
-                            </div>
-
-
-
-                            <div id="playstyle" class="radiobutton">
-
-                                    <input type="radio" name="playstyle" value="competitive"> Competitive
-                                    <input type="radio" name="playstyle" value="casual"> Casual
-
+                            <hr class="light">
+                            <div id="playstyle" class="radio-Match">
+                                <h2> Select Playstyle </h2>
+                                  <input type="radio" name="playstyle" 
+                                  value="competitive"> <h2> Competitive </h2>
+                                  <input type="radio" name="playstyle" 
+                                  value="casual"> <h2> Casual </h2>
                             </div>
 
-                            <div>
-
-                                  <p class="text-left"><a href="match" class="btn btn-primary btn-xl" role="button" data-toggle="match" data-target="match">Match!</a></p>
+                            <div class="radio-Match">
+                                <p class="text-primary"><a href="match" 
+                                  class="btn-primary btn-xl" role="button" data-toggle="match" data-target="match">Match!</a></p>
                                 <!-- <button type="submit" class="btn btn-primary btn-lg btn-block">Match!</button> -->
                             </div>
-
-                  </div>
-                
+                    </div>                
                     </form>
-                </div>
-                <!-- End # DIV Form -->
-
-
+              </div>
+    </section>
+    <!-- End # DIV Form -->
 </template>
 
 <template name="match">
-  <p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>
-  <p>Your partner in</p><p>is</p>
+  {{> MainNav}}
+  <section class="bg-primary" id="about">
+    <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>-->
+    <p>Your partner in</p><p>is</p>
 
-
+  </section>
 </template>
