@@ -27,12 +27,12 @@ useraccounts:unstyled
 twbs:bootstrap
 
 iron:router
-<<<<<<< HEAD
 raix:handlebar-helpers
 
 fourseven:scss
 fortawesome:fontawesome
 meteortoys:allthings
-=======
-meteortoys:allthings
->>>>>>> 867da92e5de31d91a76c9eeb2dc20388d6f575a4
+gwendall:auth-client-callbacks
+datariot:ganalytics
+zimme:active-route
+alanning:roles
