@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="/home#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Dev Team</a>
+              <a class="nav-link js-scroll-trigger" href="/home#services">Dev Team</a>
             </li>
             <!--
             <li class="nav-item">
@@ -35,7 +35,7 @@
             </li>
               -->
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="/home#contact">Contact</a>
             </li>
 
             {{#if currentUser}}
@@ -127,15 +127,8 @@
       </div>
     </section>
 
-    <div class="call-to-action bg-dark">
-      <div class="container text-center">
-        <h2>Contact the team</h2>
-        <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Contact</a>
-      </div>
-    </div>
-
     <section id="contact">
-      <div class="container">
+      <div class="call to action bg-dark">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
@@ -298,7 +291,7 @@
 
 
 <template name="matchmaking">
-    {{> MainNav}}
+{{> MainNav}}
     <section class="bg-primary" id="about">
       <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p> -->
                 <!-- Begin # DIV Form -->
@@ -341,8 +334,8 @@
 </template>
 
 <template name="match">
-  {{> MainNav}}
-  <section class="pg-primary" id="about">
+{{> MainNav}}
+ <section class="pg-primary" id="about">
     <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>-->
     <h2>Your partner in</h2><h2>is</h2>
 

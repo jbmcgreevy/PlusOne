@@ -40,6 +40,7 @@ h6 {
 
 p {
   font-size: 16px;
+  size: white !important;
   line-height: 1.5;
   margin-bottom: 20px; }
 
@@ -67,6 +68,11 @@ label {
   font-size: 200%;
   font-weight: normal !important;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+}
+
+.leftplus {
+  text-align: left;
+  font-size: 150%;
 }
 
 .pg-primary {
@@ -286,9 +292,9 @@ header.masthead {
       font-size: 22px; } }
 
 .call-to-action {
-  padding: 50px 0; }
+  padding: 100px 0; }
   .call-to-action h2 {
-    margin: 0 auto 20px; }
+    margin: 0 auto 50px; }
 
 .text-primary {
   color: #F05F40 !important; }
