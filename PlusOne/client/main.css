@@ -63,6 +63,12 @@ input {
   color: white;
   background-color: #222222 !important; }
 
+label {
+  font-size: 200%;
+  font-weight: normal !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+}
+
 .pg-primary {
   background: linear-gradient(rgba(249, 119, 76, 0.25), rgba(128, 42, 12, 0.85)), url('/fullsizeoutput_3e4.jpeg');
   height: 100%; 
