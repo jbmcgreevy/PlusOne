@@ -6,12 +6,3 @@
 		</div>
 	{{/if}}
 </template>
-
-<template name="matchModal">
-	{{# if $not currentUser}}
-		<div class="match-modal {{$.Session.get 'nav-toggle'}}">
-			<i class="fa fa-close close-match"></i>
-			{{> atForm}}
-		</div>
-	{{/if}}
-</template>			
