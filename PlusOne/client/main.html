@@ -312,18 +312,20 @@
                                                                       
                             <div id="Game" class="radio-Match">
                                 <h2> Select Game </h2>
-                                  <input type="radio" name="game" value="pubg"> 
-                                  <h2> PUBG </h2>
-                                  <input type="radio" name="game" value="csgo"> 
-                                  <h2> CS:GO </h2>
+                                  <input type="radio" name="game" value="pubg" id="pubg">
+                                  <label for="pubg">PUBG</label> 
+                                  <input type="radio" name="game" value="csgo" id="csgo">
+                                  <label for="csgo">CS:GO</label> 
                             </div>
                             <hr class="light">
                             <div id="playstyle" class="radio-Match">
                                 <h2> Select Playstyle </h2>
                                   <input type="radio" name="playstyle" 
-                                  value="competitive"> <h2> Competitive </h2>
+                                  value="competitive" id="comp">
+                                  <label for="comp">Competitive</label>
                                   <input type="radio" name="playstyle" 
-                                  value="casual"> <h2> Casual </h2>
+                                  value="casual" id="cas">
+                                  <label for="cas">Casual</label> 
                             </div>
 
                             <div class="radio-Match">
@@ -340,9 +342,9 @@
 
 <template name="match">
   {{> MainNav}}
-  <section class="bg-primary" id="about">
+  <section class="pg-primary" id="about">
     <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>-->
-    <p>Your partner in</p><p>is</p>
+    <h2>Your partner in</h2><h2>is</h2>
 
   </section>
 </template>
