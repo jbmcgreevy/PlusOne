@@ -32,7 +32,4 @@ raix:handlebar-helpers
 fourseven:scss
 fortawesome:fontawesome
 meteortoys:allthings
-gwendall:auth-client-callbacks
-datariot:ganalytics
-zimme:active-route
-alanning:roles
+
