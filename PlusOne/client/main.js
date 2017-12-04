@@ -29,3 +29,12 @@ Router.route('/match', function () {
 }, {
   name: 'match'
 });
+<<<<<<< HEAD
+=======
+
+Router.route('/matchmaking', function () {
+  this.render('matchmaking');
+}, {
+  name: 'matchmaking'
+});
+>>>>>>> development

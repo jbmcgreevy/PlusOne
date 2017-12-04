@@ -51,6 +51,13 @@ input {
 }
 
 .bg-primary {
+  background: linear-gradient(rgba(249, 119, 76, 0.25), rgba(128, 42, 12, 0.85)), url('/fullsizeoutput_3e4.jpeg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  display:inline-block: float-left;
   background-color: #F05F40 !important; }
 
 .bg-dark {
