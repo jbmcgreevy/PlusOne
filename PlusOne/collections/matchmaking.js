@@ -1,4 +1,4 @@
-Matchmaking = new Mongo.Collection('Matchmaking');
+Matchmaking = new Mongo.Collection('matchmaking');
 
 if (Meteor.isClient){
 	Template.matchmaking.helpers({
@@ -8,22 +8,30 @@ if (Meteor.isClient){
 	});
 
 	Template.matchmaking.events({
-		'submit .new-resolution': function(event){
+		'click .new-player': ()=> {
 			
-			var steaminput = event.target.steaminput.value;
-			var gamechoice = event.target.game.value;
-			var compchoice = event.target.playstyle.value;
+			// var steaminput = event.target.steaminput.value;
+			// var gamechoice = event.target.game.value;
+			// var compchoice = event.target.playstyle.value;
 			
 			Matchmaking.insert({
-				steaminput: steaminput,
-				gamechoice: gamechoice,
-				compchoice: compchoice
+				steaminput: "wqerty",
+				gamechoice: "qwerert",
+				compchoice: "compchqwerqweroice"
 
 			});
 
-			event.target.steaminput.value = "";
+			console.log("player inserted into collection.");
 
-			return false;
+			// event.target.steaminput.value = "";
+
+			// return false;
+		}
+	});
+
+	Template.match.helpers({
+		players: function () {
+			return Matchmaking.findOne();
 		}
 	});
 }

@@ -327,7 +327,7 @@
 
                             <div class="radio-Match">
                                 <p class="text-primary"><a href="match" 
-                                  class="btn-primary btn-xl" role="button" data-toggle="match" data-target="match">Match!</a></p>
+                                  class="new-player btn-primary btn-xl" role="button" data-toggle="match" data-target="match">Match!</a></p>
                                 <!-- <button type="submit" class="btn btn-primary btn-lg btn-block">Match!</button> -->
                             </div>
                     </div>                
@@ -338,10 +338,22 @@
 </template>
 
 <template name="match">
-{{> MainNav}}
- <section class="pg-primary" id="about">
+  {{> MainNav}}
+  <section class="pg-primary" id="about">
     <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p>-->
     <h2>Your partner in</h2><h2>is</h2>
 
+    <ul>
+      {{#with players}}
+        {{> player}}
+      {{/with}}
+    </ul>
+
   </section>
+</template>
+
+<template name="player">
+  <h3>Steam name: {{steaminput}}</h3>
+  <h3>Game: {{gamechoice}}</h3>
+  <h3>Game Mode: {{compchoice}}</h3>  
 </template>
