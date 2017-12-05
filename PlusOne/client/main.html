@@ -293,48 +293,57 @@
 <template name="matchmaking">
 {{> MainNav}}
     <section class="bg-primary" id="about">
-      <!--<p class="text-left"><a href="home" class="btn btn-primary btn-xl" role="button" data-toggle="home" data-target="home">Home</a></p> -->
+      
                 <!-- Begin # DIV Form -->
                 <div id="div-forms">
                 
                     <!-- Begin # matchmaking Form -->
-                    <form id="matchmaking">
-                    <div class="radio-Match">                   
-                          <!--<div id="icon-matchmaking-msg" class="glyphicon glyphicon-chevron-right"></div>-->
-                          <span id="text-matchmaking-msg"><h1 id="homeHeading">Choose your Matchmaking Options</h1></span>
-                                                                      
-                            <div id="Game" class="radio-Match">
-                                <h2> Select Game </h2>
-                                  <input type="radio" name="game" value="pubg" id="pubg" required>
-                                  <label for="pubg">PUBG</label> 
-                                  <input type="radio" name="game" value="csgo" id="csgo">
-                                  <label for="csgo">CS:GO</label> 
-                            </div>
-                            <hr class="light">
-                            <div id="playstyle" class="radio-Match">
-                                <h2> Select Playstyle </h2>
-                                  <input type="radio" name="playstyle" 
-                                  value="competitive" id="comp" required>
-                                  <label for="comp">Competitive</label>
-                                  <input type="radio" name="playstyle" 
-                                  value="casual" id="cas">
-                                  <label for="cas">Casual</label> 
-                            </div>
+                    <form id="matchmakingForm" class="matchmakingForm">
+                      <div class="radio-Match">                   
+                            
+                            <span id="text-matchmaking-msg"><h1 id="homeHeading">Choose your Matchmaking Options</h1></span>
+                                                                        
+                              <div id="Game" class="radio-Match">
+                                  <h2> Select Game </h2>
+                                    <input type="radio" name="game" value="pubg" id="pubg" required>
+                                    <label for="pubg">PUBG</label> 
+                                    <input type="radio" name="game" value="csgo" id="csgo">
+                                    <label for="csgo">CS:GO</label> 
+                              </div>
+                              <hr class="light">
+                              <div id="playstyle" class="radio-Match">
+                                  <h2> Select Playstyle </h2>
+                                    <input type="radio" name="playstyle" 
+                                    value="competitive" id="comp" required>
+                                    <label for="comp">Competitive</label>
+                                    <input type="radio" name="playstyle" 
+                                    value="casual" id="cas">
+                                    <label for="cas">Casual</label> 
+                              </div>
 
-                            <div>
-                                <input type="text" name="steaminput" placeholder="Enter Steam Username">
-                            </div>
+                              <hr class="light">
 
-                            <div class="radio-Match">
-                                <p class="text-primary"><a href="match" 
-                                  class="new-player btn-primary btn-xl" role="button" data-toggle="match" data-target="match">Match!</a></p>
-                                <!-- <button type="submit" class="btn btn-primary btn-lg btn-block">Match!</button> -->
-                            </div>
-                    </div>                
+                              <div>
+                                  <input type="text" name="steaminput" placeholder="Enter Steam Username">
+                              </div>
+
+                              <hr class="light">
+
+                              <div class="radio-Match">
+                                  <p class="text-primary"><a id="matchButton" href="match" 
+                                    class="new-player btn-primary btn-xl" role="button" data-toggle="match" data-target="match">Match!</a></p>
+                              </div>
+                              <input type="submit" id="hidden-submit-button" name="Submit" class="submitbutton" style="display: none;">
+                      </div>                
                     </form>
               </div>
     </section>
     <!-- End # DIV Form -->
+    <script type="text/javascript">
+      document.getElementById("matchButton").onclick = function() {
+        $("#hidden-submit-button").click();
+      }
+    </script>
 </template>
 
 <template name="match">

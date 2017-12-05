@@ -8,24 +8,26 @@ if (Meteor.isClient){
 	});
 
 	Template.matchmaking.events({
-		'click .new-player': ()=> {
+		'submit .matchmakingForm': function(event) {
+
+			alert("Form submitted");
 			
-			// var steaminput = event.target.steaminput.value;
-			// var gamechoice = event.target.game.value;
-			// var compchoice = event.target.playstyle.value;
+			var steaminput = event.target.steaminput.value;
+			var gamechoice = event.target.game.value;
+			var compchoice = event.target.playstyle.value;
 			
 			Matchmaking.insert({
-				steaminput: "wqerty",
-				gamechoice: "qwerert",
-				compchoice: "compchqwerqweroice"
+				steaminput: steaminput,
+				gamechoice: gamechoice,
+				compchoice: compchoice
 
 			});
 
 			console.log("player inserted into collection.");
 
-			// event.target.steaminput.value = "";
+		    event.target.steaminput.value = "";
 
-			// return false;
+			return false;
 		}
 	});
 
