@@ -43,7 +43,7 @@ if (Meteor.isClient){
 			else {
 				alert("No players online! :(")
 			}
-			db.matchmaking.remove({qty: {$eq: steaminput}})
 		}
+		db.matchmaking.remove({qty: {$eq: steaminput}})
 	});
 }
