@@ -28,8 +28,6 @@ if (Meteor.isClient){
 
 		    event.target.steaminput.value = "";
 
-		    db.matchmaking.remove({qty: {$eq: steaminput}})
-
 			return false;
 		}
 	});
@@ -40,6 +38,7 @@ if (Meteor.isClient){
 			console.log(player);
 			if (player) {
 				Matchmaking.update(player._id, { $set: {matched: false } });
+				db.matchmaking.remove({qty: {$eq: steaminput}})
 				return player;
 			}
 			else {
