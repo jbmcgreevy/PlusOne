@@ -21,7 +21,6 @@ if (Meteor.isClient){
 				compchoice: compchoice,
 				matched: false,
 				user_id: Meteor.userId()
-				db.matchmaking.remove({qty: {$eq: steaminput}})
 
 			});
 
@@ -30,6 +29,7 @@ if (Meteor.isClient){
 		    event.target.steaminput.value = "";
 
 			return false;
+			db.matchmaking.remove({qty: {$eq: steaminput}})
 		}
 	});
 
