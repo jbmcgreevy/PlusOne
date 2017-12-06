@@ -40,7 +40,7 @@ if (Meteor.isClient){
 			var player = Matchmaking.findOne({ 'user_id': {$ne : Meteor.userId()}, 'matched': false } );
 			console.log(player);
 			if (player) {
-				Matchmaking.update(player._id, { $set: {matched: false } });
+				Matchmaking.update(player._id, { $set: {matched: true} });
 				return player;
 			}
 			else {
