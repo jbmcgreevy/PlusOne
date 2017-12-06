@@ -30,6 +30,7 @@ if (Meteor.isClient){
 		    event.target.steaminput.value = "";
 
 		    //db.log_events.createIndex( { "expireAt": 5}, {expireAfterSeconds: 60} )
+		    Matchmaking.update(player._id, { $set: {matched: true}});
 
 			return false;
 		}
