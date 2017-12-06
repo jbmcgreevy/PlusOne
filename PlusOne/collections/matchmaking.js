@@ -10,7 +10,6 @@ if (Meteor.isClient){
 	Template.matchmaking.events({
 		'submit .matchmakingForm': function(event) {
 
-			alert("Form submitted");
 			
 			var steaminput = event.target.steaminput.value;
 			var gamechoice = event.target.game.value;
@@ -19,7 +18,9 @@ if (Meteor.isClient){
 			Matchmaking.insert({
 				steaminput: steaminput,
 				gamechoice: gamechoice,
-				compchoice: compchoice
+				compchoice: compchoice,
+				matched: false,
+				user_id: Meteor.userId()
 
 			});
 
@@ -33,7 +34,15 @@ if (Meteor.isClient){
 
 	Template.match.helpers({
 		players: function () {
-			return Matchmaking.findOne();
+			var player = Matchmaking.findOne({ 'user_id': {$ne : Meteor.userId()}, 'matched': false } );
+			console.log(player);
+			if (player) {
+				Matchmaking.update(player._id, { $set: {matched: false } });
+				return player;
+			}
+			else {
+				alert("No players online! :(")
+			}
 		}
 	});
 }
