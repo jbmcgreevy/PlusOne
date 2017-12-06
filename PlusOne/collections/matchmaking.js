@@ -44,11 +44,9 @@ if (Meteor.isClient){
 				return player;
 			}
 			else {
-<<<<<<< HEAD
-				alert("No players online! Please wait")
-=======
+
 				alert("No players online! Click to Refresh!")
->>>>>>> cf47c20d3b7217a4f98de1e4733c0a2d630cda90
+
 			}
 		}
 	});
