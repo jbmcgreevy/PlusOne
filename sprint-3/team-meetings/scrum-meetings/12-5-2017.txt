@@ -1,0 +1,30 @@
+12/5/2017
+Start time: 6:25 p.m.
+End time: 6:35 p.m.
+
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
+
+Connor:
+  Did: pulling from db
+  Hoping: to have a finished project before the presentation
+  Blocks: time constraints
+ 
+Kevin:
+  Did: removing things from the db
+  Hoping: to have a finished project before the presentation
+  Blocks: time constraints
+  
+Bill:
+  Did: pushing data to db
+  Hoping: to have a finished project before the presentation
+  Blocks: time constraints
+  
+Jared:
+  Did: Fixed issues on the match page
+  Hoping: to have a finished project before the presentation
+  Blocks: time constraints 
+
+Next meeting by Friday. 
+  
+The information in this report is accurate, to the best of my knowledge
+Connor Callison, Kevin Josey, Bill Kennedy, Jared McGreevy
