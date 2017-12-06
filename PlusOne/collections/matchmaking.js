@@ -20,8 +20,9 @@ if (Meteor.isClient){
 				gamechoice: gamechoice,
 				compchoice: compchoice,
 				matched: false,
-				user_id: Meteor.userId()
-				//db.matchmaking.remove({qty: {$eq: steaminput}})
+				user_id: Meteor.userId(),
+				date: new Date(),
+				with: ""
 
 			});
 
@@ -37,10 +38,12 @@ if (Meteor.isClient){
 
 	Template.match.helpers({
 		players: function () {
-			var player = Matchmaking.findOne({ 'user_id': {$ne : Meteor.userId()}, 'matched': false } );
+			var player = Matchmaking.findOne({ 'user_id': {$ne : Meteor.userId()}, 'matched': false },{reactive: false} );
+			var my_account = Matchmaking.findOne({ 'user_id': Meteor.userId(), 'matched': false },{reactive: false} );
 			console.log(player);
 			if (player) {
-				Matchmaking.update(player._id, { $set: {matched: false} });
+				Matchmaking.update(player._id, { $set: {matched: true, with: my_account._id } });
+				Matchmaking.update(my_account._id, { $set: {matched: true, with: player._id } });
 				return player;
 			}
 			else {
