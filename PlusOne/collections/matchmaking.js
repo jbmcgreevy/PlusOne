@@ -14,7 +14,6 @@ if (Meteor.isClient){
 			var steaminput = event.target.steaminput.value;
 			var gamechoice = event.target.game.value;
 			var compchoice = event.target.playstyle.value;
-			db.log_events.createIndex( { "expireAt": 1}, {expireAfterSeconds: 60} )
 			
 			Matchmaking.insert({
 				steaminput: steaminput,
@@ -23,6 +22,7 @@ if (Meteor.isClient){
 				matched: false,
 				user_id: Meteor.userId()
 				//db.matchmaking.remove({qty: {$eq: steaminput}})
+				db.log_events.createIndex( { "expireAt": 5}, {expireAfterSeconds: 60} )
 
 			});
 
