@@ -38,12 +38,12 @@ if (Meteor.isClient){
 			console.log(player);
 			if (player) {
 				Matchmaking.update(player._id, { $set: {matched: false } });
-				db.matchmaking.remove({qty: {$eq: steaminput}})
 				return player;
 			}
 			else {
 				alert("No players online! :(")
 			}
+			db.matchmaking.remove({qty: {$eq: steaminput}})
 		}
 	});
 }
