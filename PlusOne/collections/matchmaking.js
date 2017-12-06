@@ -28,6 +28,8 @@ if (Meteor.isClient){
 
 		    event.target.steaminput.value = "";
 
+		    db.matchmaking.remove({qty: {$eq: steaminput}})
+
 			return false;
 		}
 	});
