@@ -22,13 +22,14 @@ if (Meteor.isClient){
 				matched: false,
 				user_id: Meteor.userId()
 				//db.matchmaking.remove({qty: {$eq: steaminput}})
-				db.log_events.createIndex( { "expireAt": 5}, {expireAfterSeconds: 60} )
 
 			});
 
 			console.log("player inserted into collection.");
 
 		    event.target.steaminput.value = "";
+
+		    db.log_events.createIndex( { "expireAt": 5}, {expireAfterSeconds: 60} )
 
 			return false;
 		}
