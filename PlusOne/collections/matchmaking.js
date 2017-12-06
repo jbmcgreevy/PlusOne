@@ -29,7 +29,7 @@ if (Meteor.isClient){
 
 		    event.target.steaminput.value = "";
 
-		    db.log_events.createIndex( { "expireAt": 5}, {expireAfterSeconds: 60} )
+		    //db.log_events.createIndex( { "expireAt": 5}, {expireAfterSeconds: 60} )
 
 			return false;
 		}
