@@ -1,0 +1,13 @@
+Now that we have a basic working version of our project testing was more extensive.
+
+When you look at the options available when you try to match you see that as of right now 
+there are only two games to choose from and two additional options on what's your playstyle.
+
+As such we tested to make sure that users only matched with users that also selected the
+same options. 
+
+The next set of testing is making sure that users are taken to correct webpage whenever they click
+links. This also happens when users select the match button which takes them the results page. 
+
+Other testing involves inserting data into the database including accounts and matchmaking 
+information. 

@@ -1,0 +1,3 @@
+Things that went well this sprint:
+	- Got a working version of the algoritm
+	- Server is running successfully
