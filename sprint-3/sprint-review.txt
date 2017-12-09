@@ -1,11 +1,11 @@
-preemptive sprint review page
 8 December 2017
-** TIME ** 
+5:40-5:50 P.M. 
 
 Billy Kennedy, Connor Callison, Jared McGreevy, Kevin Josey, Shane Kelly (Client)
 
-I, Shane Kelly, give this project a thumbs [SOMETHING]
-I would suggest [SOMETHING]
+I, Shane Kelly, give this project a thumbs up
+I would suggest continuing work on the matchmaking algorithm 
+to make it more robust as well as adding user profile pages. 
   
 The information in this report is accurate, to the best of my knowledge,
 Billy Kennedy, Connor Callison, Jared McGreevy, Kevin Josey, Shane Kelly (Client)
