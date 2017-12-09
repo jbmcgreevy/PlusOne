@@ -1,0 +1,3 @@
+Our UML diagram is meant to display what steps the user will take as they use PlusOne. We begin either with them creating
+  an account if they need to or to simply sign in. From there they can begin matchmaking by entering relevent information 
+  for the matching algorithm. Then they wait in the queue for a match. 
