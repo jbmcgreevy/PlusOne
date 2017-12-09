@@ -1,3 +1,5 @@
 Things that went well this sprint:
 	- Got a working version of the algoritm
 	- Server is running successfully
+	- Made a clean site that was somewhat functional
+	- Learned the benefits of paired programming first hand
