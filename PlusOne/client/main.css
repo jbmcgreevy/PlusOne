@@ -121,7 +121,7 @@ form {
   margin: 0 auto; }
 
 #mainNav {
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: #222222 !important;
   background-color: #F05F40 !important;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
@@ -135,6 +135,7 @@ form {
     color: #F05F40;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      border-bottom: 2px solid white;
       color: #f05f40; }
   #mainNav .navbar-toggle {
     font-size: 12px;
@@ -149,6 +150,8 @@ form {
     color: #222222; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+      border-bottom: 2px solid white;
+      text-decoration: none; 
       color: #F05F40; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
@@ -159,8 +162,8 @@ form {
         background-color: transparent; }
   @media (min-width: 992px) {
     #mainNav {
-      border-color: rgba(255, 255, 255, 0.3);
-      background-color: transparent; }
+/*      border-color: rgba(255, 255, 255, 0.3);
+*/      background-color: transparent; }
       #mainNav .navbar-brand {
         font-size: 14px;
         color: rgba(255, 255, 255, 0.7); }
